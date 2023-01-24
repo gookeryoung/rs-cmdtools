@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "cargo",
+            "name": "run filerename",
+            "cargoArgs": ["r", "--bin", "filerename"],
+        },
+        {
+            "type": "cargo",
+            "name": "run filedate",
+            "cargoArgs": ["r", "--bin", "filedate"],
+        },
+        {
+            "type": "cargo",
+            "name": "build release",
+            "cargoArgs": ["build", "--release"],
+        }
+    ]
+}
